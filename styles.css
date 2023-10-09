@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@300 & display=swap');
+/* INICIO */
+/* =================================================================================================
+                                       Reglas Generales
+====================================================================================================*/
+.fondo{
+  background-color: #dcc285;
+}
+:root{
+    --clr-main: #dcc285;
+    --clr-brown:#401D10;
+    --clr-red:red;
+    --clr-blue: #000036;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Rubik', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul{
+    margin:0;
+    padding:0;
+
+}
+ul{
+
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+a{
+    text-decoration:none;
+}
+
+/* =================================================================================================
+                                       # Nav
+====================================================================================================*/
+.topHeader{
+  background: #000036;
+    margin: 0;
+    padding: 0;}
+
+.topHeader li{
+    line-height: 3em;
+  
+}
+.aviso {
+  animation: blink 2s infinite;
+  position: absolute;
+  margin-left: 446px;
+  margin-top: 8px;
+  color: red;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+    .topHeader li i{
+     color: var(--clr-main);
+    
+    }
+    .topHeader .container {
+      font-size: 12px;
+      color: #959595;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 0;
+      list-style-image: none;
+      list-style-type: none;
+      overflow: hidden;
+  }
+    
+    ul {
+      margin-block-start: 0,5em;
+      margin-block-end: 0,5em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 30px;
+      gap: 10px;
+      
+      
+  }
+  
+    .nav-row {
+    border-top: 1px solid;
+
+  }
+  
+  .nav-desktop {
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+  }
+  .nav-desktop-list {
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .nav-item {
+    display: inline-block;
+    position: initial;
+   
+  }
+  .nav-item-container{
+    background-color: #000000 ;
+    position: relative;
+    display: inline-block;
+  
+
+  }
+  
+.nav-item-container .flecha {
+  color: white;
+  padding: 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.nav-item-container .flecha:hover {
+  background-color:#dcc285;
+}
+  .nav-list-link {
+    padding: 0 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    flex-direction: row;
+    color: white;
+    transform: rotate(90deg);
+
+  }
+  .nav-list-link:hover{
+   color: #dcc285;
+  }
+  .desktop-dropdown {
+  
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    overflow-y: auto;
+  }
+  .oferta_top{
+    font-size:11px;
+    position: absolute;
+    margin-left: 348px;
+    margin-top: -8px;
+    
+  }
+  .disa{
+    display:inline-block;
+    color:red;
+    text-decoration:none;
+  }
+
+.custom-logo{
+  position:absolute;
+  margin-left: -608px;
+  margin-top: 4px;
+}
+.desktop-list-subitems{
+  padding: 15px 25px 25px ;
+  text-align: left;
+  column-count:3;
+  column-gap:20px;
+  
+
+}
+.nav-dropdown-content{
+  visibility: hidden;
+}
+.nav-item-container .nav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.nav-item-container .nav-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.aws-wrapper{
+  position: absolute;
+  margin-left:1047px;
+  margin-top:-42px;
+}
+.lupa{
+  color:red;
+}
+
+.nav-item-container .nav-dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+/* =================================================================================================
+                                       # Carrusel
+====================================================================================================*/
+
+
+.wpp{
+  position: fixed;
+  margin-left:1265px;
+  border-radius: 54px;
+
+ 
+}
+.carrito{
+  color:red;
+ position: absolute;
+  margin-left: 245px;
+
+  top: -2px ;
+}
+.swiper {
+  position: absolute;
+  width: 1300px;
+  height: 450px;
+  margin-top: 26px;
+
+}
+/* =================================================================================================
+                                       # Wpp
+====================================================================================================*/
+
+.wpFlotante {
+  padding: 5px 20px 5px 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  justify-content: center;
+  position: fixed;
+  bottom: 80px;
+  right: -1px;
+  background-color: #87C13F;
+  color: white;
+  text-decoration: none;
+  border: solid white 1px;
+  z-index: 999;
+  height: 70px;
+  transition: background-color 0.3s, padding-right 0.3s;
+}
+/* =================================================================================================
+                                       # Mapa
+====================================================================================================*/
+.mapa {
+  margin-top:47px;
+  margin-left:50px;
+  height: 400px;
+  width: 1000px;
+}
+.mapa:hover {
+  transform: scale(1.1);
+}
+.container{
+  font-family: Montserrat,Sans-serif;
+}
+/* =================================================================================================
+                                       # Footer
+====================================================================================================*/
+
+
+
+
+/* contacto */
+form {
+  border: 2px solid #401D10; /* Cambia el color del borde a marrón (#401D10) */
+  padding: 20px; /* Opcional: agrega relleno para separar el borde del contenido */
+}

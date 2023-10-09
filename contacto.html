@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom</title>
+    <meta name="description" content="Conocé tu estilo de hogar , ten  comodidad y confort con ZOOM">
+    <meta name="keywords" content="zoom tienda de muebles">
+    <link rel="shortcut icon" href="./img/Agregar un título.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css" class="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <style>
+        form {
+    width:1100px; 
+    margin-top:77px; 
+    margin-left: 109px;
+    background-color:#f9f9f9; 
+    padding-left:20px; 
+    padding-right:20px; 
+    padding-top:20px; 
+    padding-bottom:20px; 
+    border-radius:10px; 
+    box-shadow:-5px -5px rgba(0,0,0,.1), inset -5px -5px rgba(0,0,0,.1), inset -5px -5px rgba(255,255,255,.3), inset -5px -5px rgba(255,255,255,.3);
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+    width:1060px; 
+    height:auto; 
+    margin-bottom:10px; 
+    padding-left:10px; 
+    padding-right:10px; 
+    padding-top:10px; 
+    padding-bottom:10px; 
+    border-radius:5px; 
+    border:none; 
+    outline:none; 
+    background-color:#f9f9f9; 
+    box-shadow:-2.5px -2.5px rgba(0,0,0,.1), inset -2.5px -2.5px rgba(0,0,0,.1), inset -2.5px -2.5px rgba(255,255,255,.3), inset -2.5px -2.5px rgba(255,255,255,.3);
+}
+
+input[type=submit] {
+    width:auto; 
+    height:auto; 
+    margin-top:-15%; 
+    margin-left:-15%; 
+    margin-right:-15%; 
+    margin-bottom:-15%; 
+    padding-left:auto; 
+    padding-right:auto; 
+    padding-top:auto; 
+    padding-bottom:auto; 
+    border-radius:auto;  
+    border:none;  
+    outline:none;  
+    background-color:#f9f9f9;  
+    box-shadow:-2.5px -2.5px rgba(0,0,0,.1), inset -2.5px -2.5px rgba(0,0,0,.1), inset -2.5px -2.5px rgba(255,255,255,.3), inset -2.5px -2.5px rgba(255,255,255,.3);  
+}
+
+input[type=submit]:hover {background-color:#4CAF50;}
+
+label {font-family:'Arial'; font-size:.8em;}
+    </style>
+    <header>
+    <div class="col-12 d-none d-md-block text-center col-md-6 col-lg-12 " style="background-color:#401D10; margin-top:-10px;height: 57px;">
+        <a class="custom-logo-link" rel="home" aria-current="page"><img width="240" height="48" src="./img/Agregar un título.png" class="custom-logo" alt="SAN REMO MUEBLES" decoding="async"></a>
+        <ul>
+        <li class="nav-item  nav-main-item " data-component="menu.item" >
+        <div class="nav-item-container ">
+        <a class=" nav-list-link " href=""style="pointer-events: none;">PRODUCTOS
+                <span class="nav-list-arrow transition-soft">
+        <i class="bi bi-chevron-down flecha"></i> </span></a>
+        </div>
+        </li >
+        <div class="nav-dropdown-content">
+                <ul class="desktop-list-subitems list-subitems nav-list-accordion">
+                <li class="nav-item nav-item-desktop " data-component="menu.item">
+                <a class="nav-list-link " >COCINA </a>
+                </li>
+                <li class="nav-item nav-item-desktop " data-component="menu.item">
+                <a class="nav-list-link " >LIVING</a>
+                </li>
+                <li class="nav-item nav-item-desktop " data-component="menu.item">
+                <a class="nav-list-link " >DORMITORIO</a>
+                </li>
+                </ul>
+                </div>
+      
+
+       </li>
+        
+       
+        <li class="nav-item  nav-main-item " data-component="menu.item" style="position: absolute;margin-top: -140px;margin-left: 125px;">
+        <div class="nav-item-container ">
+        <a class=" nav-list-link " href="./contacto.html" style="pointer-events: none;">TE AYUDAMOS?<span class="nav-list-arrow transition-soft"></span></a>
+        </div>
+        </li>
+       
+       
+        <li class="nav-item nav-item-desktop nav-main-item" data-component="menu.item" style="position: absolute;margin-top: -140px;margin-left: -255px;">
+        <div class="nav-item-container ">
+        <a class="nav-list-link " href="#seccion-1" style="pointer-events: none;" >CONOCENOS<span class="nav-list-arrow transition-soft"></span></a>
+        </div>
+        </li>
+
+        </ul>
+   
+
+</div>
+</header>
+<main>
+    <form>
+        <div class="mb-3" style="border-color: #401D10;">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Teléfono</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        
+        <div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-44omhtaemfc3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdvubwUAAAAAKg5583RDx5WbiQg-J3lUa_INUHR&amp;co=aHR0cHM6Ly93d3cuc29tb3NpbnRlZ3JhLmNvbS5hcjo0NDM.&amp;hl=es&amp;v=pxZcVU8Dk73FyvFvdCgp2MSG&amp;size=normal&amp;cb=65ztbt7wnnor"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</main>
+<footer>
+   
+<div class="container "style="margin-left:-12px;"  >
+
+
+<section style="margin-top:107px;" >
+ <div style="background-color: #000036; width: 1348px;height:80px;">
+<div  style=" font-family: Montserrat,Sans-serif; color:white; "><h5 style=" position:absolute; margin-left:577px;"> CONTACTOS</h5></div>
+
+<div class="sociales" >
+<div  style="position:absolute; margin-left: 587px;margin-top: 34px; ">
+   <a target="new" href="https://www.facebook.com.ar/"><i class="bi bi-facebook icono" ></i></a>
+   <a target="new" href="https://api.whatsapp.com/send?phone=5492615681319" ><i class="bi bi-whatsapp icono"></i></a>
+   <a target="new" href="mailto:info@sanremomuebles.com.ar"><i class="bi bi-envelope-fill icono"></i></a>
+   <a target="new" href="https://www.instagram.com/"><i class="bi bi-instagram icono"></i></a>
+</div>
+</div>
+</div>
+<div class="contacts " style="background-color:#401D10;height: 67px;width: 1348px;">
+
+   <span class="element element_address element_first ">
+   <span class="element_pref" ><h6 style="color:white; margin-left:587px;">DIRECCIÓN</h6></span>
+   <span class="element_data" style="color:white;margin-left: 397px;"> 
+     Av. San Martín 1415 <p style="margin-left:587px;margin-top:-24px;"> Mendoza</p>
+     <p  style="color:white;margin-left: 697px;margin-top:-40px;">Argentina	</p>		</span>
+ </span>
+</div>
+   
+
+   
+
+     <div style="background-color:#dcc285 ;  width: 1008px;margin-left: 47px;">
+       <div style=" position: relative;left:345px;">
+       <span style="color:black; width:157px;">TRANSFORMA TU HOGAR EN ESTILO </span>
+       <span> Made by ©️Carolina Lopez </span>
+       </div>
+
+   
+
+ </div>
+
+</footer>
+</body>
+</html>
